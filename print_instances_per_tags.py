@@ -1,4 +1,4 @@
-# Python script print out all running instances filter base on tags. 
+# Python script print out all instances filter base on tags. 
 import boto3
 ec2 = boto3.resource('ec2')
 # Filter instances tags 
